@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "PermanentMarker";
+  src: url("PermanentMarker-Reguar.ttf")
+}
+
+
+.sidebar {
+height: 50%;
+width: 200px;
+position: absolute;
+left: 0;
+top: 0;
+padding-top: 40px;
+background-color: lightblue;
+}
+
+.sidebar div {
+padding: 8px;
+font-size: 24px;
+display: block;
+}
+
+.body-text {
+margin-left: 200px;
+font-size: 18px;
+}
+
+
+.box {
+   display: flex;
+   align-items:center;
+   text-align: center;
+   padding: 8px;
+   background-color: lightblue;
+   font-family: "PermanentMarker", sans-serif, serif;
+
+}

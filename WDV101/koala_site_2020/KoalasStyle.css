@@ -1,0 +1,69 @@
+@font-face  {
+  font-family: CustomFont;
+  src: url(FiraSans-Regular.ttf);
+}
+body {
+  background: lightblue;
+  border: solid
+}
+
+#logo{
+  background: black;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#paragraph {
+  border: solid;
+  white-space: pre;
+}
+
+#koalabanner {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ol.circleBullet {
+    list-style-type: square;
+}
+
+.bulletlist {
+    list-style-type: lower-greek;
+}
+
+button:hover {
+  color: purple;
+}
+
+nav {
+  width: 250px;
+  display: inline;
+}
+
+nav ul {
+  list-style-type: inline;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightblue;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  display: inline;
+  color: white;
+  text-align: left;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+nav li a:hover,
+nav li a.active{
+  background-color: #111;
+}

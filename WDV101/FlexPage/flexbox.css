@@ -1,0 +1,32 @@
+.container {
+
+}
+
+.pageheader {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+
+}
+.navigation > div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+}
+
+.columnBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.pageend {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
